@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout"
+    android:layout_above="@id/button_camera"
+    android:layout_marginBottom="50dp"
+    />
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="695dp" />
+    <Button
+        android:id="@+id/button_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteX="85dp"
+        android:layout_alignParentRight="true"
+        tools:layout_editor_absoluteY="695dp" />
+</RelativeLayout>
